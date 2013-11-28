@@ -1,3 +1,6 @@
 ---
+enabled: true
+loop_delay: 5.0
+debug: false
 indent: true
 include_headers: true
