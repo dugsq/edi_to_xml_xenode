@@ -1,6 +1,8 @@
 EDI-to-XML Xenode
 =================
 
+Note: you will need the Xenograte Community Toolkit (XCT) to run this Xenode. Refer to the XCT repo [https://github.com/Nodally/xenograte-xct](https://github.com/Nodally/xenograte-xct) for more information.
+
 **EDI-to-XML Xenode** parses EDI documents that it receives in its input message data and converts the data into XML format, using the EDI field heads as tag names. Each incoming message with data should include an EDI document serialized into a string. Set 'indent' to true in the Configuration File if you prefer to include proper indentation of the fields in the output XML file. Set 'include_headers' to true if you want to include header tags for the output XML. 
 
 ###Configuration File Options:###
