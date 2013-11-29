@@ -49,7 +49,7 @@ class EdiToXmlXenode
         edi.parse()
         xml_text = edi.to_xml(@indent, @include_headers)
         # forward the message to children
-        msg.msg_id = msg.newid
+        msg.msg_id = msg.new_id
         msg.data = xml_text
         write_to_children(msg)
       end
